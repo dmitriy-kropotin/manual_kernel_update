@@ -1,9 +1,9 @@
 # Describe VMs
 MACHINES = {
   # VM name "kernel update"
-  :"kernel-update" => {
+  :"centos-7-9-tesla" => {
               # VM box
-              :box_name => "centos/7",
+              :box_name => "dmitriy-kropotin/centos-7-9-tesla",
               # VM CPU count
               :cpus => 2,
               # VM RAM size (Mb)
